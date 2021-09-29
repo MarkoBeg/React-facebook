@@ -1,0 +1,54 @@
+.post {
+    padding-top: 25px;
+    width: 100%;
+}
+
+.post-top {
+    display: flex;
+    align-items: center;
+}
+.post-about > h4 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+.post-about > p{
+    font-size: 14px;
+    padding-left: 10px;
+}
+.post-message {
+    font-size: 16px;
+    color: #000;
+    padding: 10px 0;
+    text-decoration: none;
+    word-break: break-word;
+    font-weight: 500;
+}
+.post-image > img {
+    width: 550px;
+    max-width: 650px;
+    height: 350px;
+    border-radius: 5px;
+}
+.post-widgets {
+    padding-top: 15px;
+    display: flex;
+    justify-content:  space-around;
+}
+.post-widget {
+    display : flex;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 15px;
+    
+}
+.post-widget > .MuiSvgIcon-root {
+    color: gray;
+}
+.post-widget > p {
+    color: gray;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 15px;
+}

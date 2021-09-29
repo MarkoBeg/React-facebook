@@ -1,0 +1,28 @@
+.RightSidebar {
+    display: flex;
+    flex: 0.2;
+    flex-direction: column;
+}
+.right-sidebar {
+    display: flex;
+    flex-direction: column;
+}
+.right-sidebar > h2 {
+    font-size: 26px;
+    color: #000;
+    padding-left: 15px;
+}
+.right-sidebar > p {
+    color: gray;
+    text-transform: capitalize;
+    padding-left: 15px;
+}
+.right-sidebar-img > img {
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,0 +1,30 @@
+.cards {
+    position: relative;
+    width: 120px;
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 3px 4px 2px 5px rgba(0,0,0,0.3);
+    cursor: pointer;
+    margin-left: 15px;
+}
+.cards:hover {
+    transition: all 0.8s ease-in-out;
+    opacity: 0.8;
+    transform: scale(1.1);
+}
+.card-avatar {
+    margin-left: 15px;
+    margin-top: 10px;
+    border: 2px solid #2e81f4;
+    
+}
+.cards > h4 {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    font-weight: bold;
+}

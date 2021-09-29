@@ -1,0 +1,8 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    padding-top: 55px;
+    align-items: center;
+    flex: 0.6;
+
+}

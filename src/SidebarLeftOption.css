@@ -1,0 +1,19 @@
+.SidebarLeftOption {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.SidebarLeftOption:hover {
+    opacity: 0.9;
+}
+.SidebarLeftOption > h4 {
+    margin-left: 10px;
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    text-transform: normal;
+}
+.SidebarLeftOption > .MuiSvgIcon-root { 
+    font-size: 30px;
+}

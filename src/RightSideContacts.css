@@ -1,0 +1,15 @@
+.contacts {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.avatar-right {
+    border: 2px solid #2e81f4;
+}
+.contacts > p {
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}

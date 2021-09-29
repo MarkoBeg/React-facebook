@@ -1,0 +1,68 @@
+.sendMessage {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    cursor: pointer;
+    
+}
+.sendMessage-top {
+    padding-top: 45px;
+    display: flex;
+    align-items: center;
+  
+    
+}
+.sendMessage-top > form {
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+}
+.sendMessage-top > form > input {
+    border: 1px solid lightgrey;
+    background-color: lightgrey;;
+    border-radius: 6px;
+    height: 35px;
+    width: 100%;
+    outline: none;
+    margin-left: 15px;
+}
+.send-postBtn {
+    color: #fff;
+    background-color: #2e81f4;
+    padding: 5px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+.send-postBtn {
+    display: none;
+}
+@media(max-width: 992px) {
+    .send-postBtn {
+        display: block;
+    }
+}
+.sendMessage-bottom {
+    padding-top: 15px;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.widgets {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    cursor: pointer;
+}
+.widgets > .MuiSvgIcon-root {
+    font-size: 32px;
+    
+}
+.widgets > h5 {
+    color: gray;
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 400;
+}
